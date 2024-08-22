@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+
+ nav{
+    position: fixed;
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .hidden{
+    transform: translateY(-100%);
+ }
+ 
+ .logo{
+    color: #F48C06;
+    font-family: 'Roboto Slab';
+    font-size: 35px;
+    font-weight: 900;
+ }
+ 
+ 
+nav ul{
+    float: right;
+    background-color: #524a42;
+    box-shadow: -1px 1px 3px #292929;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 50px;
+    margin: 0 15px;
+    opacity: 1;
+}
+nav ul li a{
+    font-family: 'Roboto Mono';
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    transition-duration: 0.3s;
+    color: #F48C06;
+}
+
+.burgerIcon{
+    background-color: #524A42;
+    border-radius: 10px;
+    height: 50px;
+}
+
+/* <---------------------------------------------MEDIA QUERIES---------------------------------------------------------> */
+
+@media (1200px < width) {
+     nav ul{
+        margin-right: 100px;
+    }
+    .logo{
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    .burgerIcon{
+        display: none;
+    }
+}
+@media (1025px < width < 1201px) {
+     nav ul{
+        margin-right: 80px;
+    }
+    .logo{
+        margin-left: 80px;
+        font-size: 40px;
+    }
+    .burgerIcon{
+         display: none;
+     }
+}
+
+@media (770px < width < 1026px) {
+     nav ul{
+        display: none;
+    }
+    .logo{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .burgerIcon{
+        margin-right: 30px;
+    }
+     
+}
+
+@media (480px < width < 771px) {
+    nav{
+        justify-content: space-between;
+     }
+     nav ul{
+        display: none;
+    }
+    .logo{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .burgerIcon{
+        margin-right: 20px;
+    }
+}
+
+@media (481px > width){
+    nav{
+        justify-content: space-between;
+     } 
+    nav ul{
+        display: none;
+    } 
+    .logo{
+        margin-left: 15px;
+        font-size: 30px;
+    }
+    .burgerIcon{
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,667 @@
+.homeSection{
+    background-image: url('../../assets/home-bg2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+    
+
+    .maindiv{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .h1css{
+            color: #451900;
+            font-size: 20px;
+        }
+        h2{
+            color: #F48C06;
+            font-size: 60px;
+        }
+        p{
+            color: #252422;
+            margin-bottom: 20px;
+        }
+        .hiIcon{
+            height: 20px;
+            margin-right: 7px;
+        }
+        .pinIcon{
+            height: 17px;
+            margin-right: 5px;
+        }
+        .fbIcon{
+            margin-right: 10px;
+            height: 25px;
+        }
+        .igIcon{
+            margin-right: 10px;
+            height: 25px;
+        }
+        .linkedinIcon{
+            margin-right: 10px;
+            height: 25px;
+        }
+        .githubIcon{
+            height: 25px;
+        }
+        .button1{
+            margin-right: 10px;
+        }
+        button{
+            font-family: 'Roboto Mono';
+            height: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            border-width: 1.5px;
+            border-color: #252422;
+            background-color: #deddcb56;
+            box-shadow: -1px 1px 3px #292929;
+            color: #252422;
+        }
+        button:hover{
+            cursor: pointer;
+            transition-duration: 0.2s;
+            border-color: #252422;
+            background-color: #BDB7A7;
+            color: #252422;
+        }
+        .skillIcon{
+            width: 320px;
+            margin-top: 8px;
+        }
+        .wrapper{
+            overflow: hidden;
+            white-space: nowrap;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 240px;
+            background-color: transparent;
+            align-content: center;
+            padding-left: 0px;
+            padding-right: 0px;
+            
+        .item1{
+            display: inline-block;
+            white-space: nowrap;
+    
+            img{
+                margin-right: 10px;
+                height: 200px;
+            }
+        }
+        }
+    }
+}
+
+
+/* <---------------------------------------------MEDIA QUERIES---------------------------------------------------------> */
+
+
+@media (640px > width){
+    .homeSection{
+        .maindiv{
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media (750px > height){
+    .homeSection{
+        .maindiv{
+            .wrapper{
+                height: 140px;
+                .item1{
+                    img{
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/* @media (1200px < width) {
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 30px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 60px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .githubIcon{
+                height: 35px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 17px;
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                height: 50px;
+            }
+            
+        }
+    }
+}
+@media (1025px < width < 1201px) {
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 30px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 60px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .githubIcon{
+                height: 35px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 17px;
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                height: 50px;
+                margin-top: 8px;
+                margin-bottom: 80px;
+            }
+            
+        }
+    }
+}
+
+@media (770px < width < 1026px) {
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 30px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 60px;
+                width: 500px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .githubIcon{
+                height: 35px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 17px;
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                height: 50px;
+                margin-bottom: 50px;
+            }
+            
+        }
+    }
+}
+
+@media (480px < width < 771px) {
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 25px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 40px;
+                width: 300px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .githubIcon{
+                height: 35px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 17px;
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                height: 35px;
+            }
+            
+        }
+    }
+}
+
+@media (415px < width < 481px){
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 25px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 40px;
+                width: 300px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 35px;
+            }
+            .githubIcon{
+                height: 35px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 17px;
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                height: 35px;
+            }
+            
+        }
+    }
+}
+
+@media (320px < width < 416px){
+    .homeSection{
+        background-image: url('../../assets/home-bg2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        .maindiv{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+            .h1css{
+                color: #451900;
+                font-size: 22px;
+            }
+            h2{
+                color: #F48C06;
+                font-size: 35px;
+                width: 300px;
+            }
+            p{
+                color: #252422;
+                margin-bottom: 20px;
+                font-size: 16px;
+                width: 350px;
+            }
+            .hiIcon{
+                height: 35px;
+                margin-right: 7px;
+            }
+            .pinIcon{
+                height: 22px;
+                margin-right: 5px;
+            }
+            .fbIcon{
+                margin-right: 10px;
+                height: 30px;
+            }
+            .igIcon{
+                margin-right: 10px;
+                height: 30px;
+            }
+            .linkedinIcon{
+                margin-right: 10px;
+                height: 30px;
+            }
+            .githubIcon{
+                height: 30px;
+            }
+            button{
+                font-family: 'Roboto Mono';
+                font-size: 15px;
+                height: 40px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                border-width: 1.5px;
+                border-color: #252422;
+                background-color: #deddcb56;
+                box-shadow: -1px 1px 3px #292929;
+                color: #252422;
+            }
+            button:hover{
+                cursor: pointer;
+                transition-duration: 0.2s;
+                border-color: #252422;
+                background-color: #BDB7A7;
+                color: #252422;
+            }
+            .skillIcon{
+                margin-top: 8px;
+                height: 30px;
+            }
+            .wrapper{
+                overflow: hidden;
+                white-space: nowrap;
+                position: absolute;
+                bottom: 10px;
+                width: 100%;
+                height: 160px;
+                background-color: #c0c0c085;
+                align-content: center;
+                
+            .item1{
+                display: inline-block;
+                white-space: nowrap;
+                margin-right: 20px;
+        
+                img{
+                    margin-right: 10px;
+                    height: 140px;
+                }
+            }
+            }
+        }
+    }
+} */

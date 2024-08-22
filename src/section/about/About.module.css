@@ -1,0 +1,470 @@
+.page2css{
+    background-color: #CCC5B9;
+    height: 600px;
+    width: 100%;
+
+        .container2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                height: 600px;
+
+                .page2pic{ 
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    height: 550px;
+                }  
+            }
+            
+            .aboutdiv{
+                width: 700px;
+                justify-items: flex-end;
+                align-content: center;
+
+                h1,h2{
+                    font-family: 'Roboto Slab';
+                    font-size: 30px;
+                    color: #451900;
+                    margin-bottom: 10px;
+
+                    .aboutEmoji{
+                        height: 33px;
+                    }
+                }
+
+                .pcss{
+                    width: 640px;
+                    color: #252422;
+                    font-size: 17px;
+                    margin-bottom: 20px;
+                }
+                .viewMore{
+                    font-family: 'Roboto Mono';
+                    /* font-weight: 600; */
+                    font-size: 17px;
+                    height: 50px;
+                    margin-top: 15px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: 10px;
+                    border-color: #252422;
+                    background-color: #B9B0A2;
+                    box-shadow: -1px 1px 3px #292929;
+                    color: #252422;
+                    transition-duration: 0.3s;
+                    cursor: pointer;
+
+                    .arrowUp{
+                        margin-left: 20px;
+                    }
+                }
+                .viewMore:hover{
+                    border-color: #252422;
+                    background-color: #a1968ede;
+                    color: #252422;
+                }
+            }  
+        }
+        .container3{
+            display: none;
+        }
+}
+
+/* <---------------------------------------------MEDIA QUERIES---------------------------------------------------------> */
+
+
+@media (1200px < width < 1351px) {
+    .page2css{
+        height: 500px;
+    
+            .container2{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+    
+                .divpic{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end; 
+                    position: relative;
+                    height: 500px;
+    
+                    .page2pic{
+                        margin-left: 50px;
+                        margin-right: 50px;
+                        height: 450px;
+                    }  
+                }
+            }
+            .container3{
+                display: none;
+            }
+    }
+}
+@media (1099px < width < 1201px) {
+    .page2css{
+        height: 400px;
+    
+            .container2{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+    
+                .divpic{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end; 
+                    position: relative;
+                    height: 400px;
+    
+                    .page2pic{
+                        margin-left: 50px;
+                        margin-right: 50px;
+                        height: 350px;
+                    }  
+                }
+            }
+            .container3{
+                display: none;
+            }
+    }
+}
+@media (915px < width < 1100px) {
+    .page2css{
+        height: 500px;;
+
+        .container2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            .divpic{
+                display: absolute;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                height: 500px;
+
+                .page2pic{
+                    /* margin-left: 20px; */
+                    margin-right: 50px;
+                    height: 450px;
+                }  
+            }
+            .aboutdiv{
+                width: 420px;
+                margin-top: 80px;
+                display: flex;
+                flex-direction: column;
+
+                .pcss{
+                    width: 400px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (500px < width < 916px) {
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 325px;
+                    left: 10px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 580px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 340px;
+
+                .pcss{
+                    width: 580px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media (550px < width < 676px) {
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 250px;
+                    left: 10px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 420px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 340px;
+
+                .pcss{
+                    width: 420px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                }
+            }
+        }
+    }
+}
+@media (480px < width < 551px) {
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 220px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 420px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 340px;
+
+                .pcss{
+                    width: 420px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                }
+            }
+        }
+    }
+}
+@media (320px < width < 481px) {
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 220px;
+                    left: -30px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 100%;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+
+                .pcss{
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+@media (370px < width < 416px){
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 220px;
+                    left: -30px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 340px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+
+                .pcss{ 
+                    font-size: 15px;
+                    width: 340px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+@media (320px < width < 371px){
+    .page2css{
+        height: 640px;;
+        
+        .container2{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            
+            .divpic{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; 
+                position: relative;
+                align-content: flex-end;
+                height: 600px;
+
+                .page2pic{
+                    margin-left: 20px;
+                    margin-right: 50px;
+                    height: 200px;
+                    left: -40px;
+                    bottom: -40px;
+                    position: absolute;
+                }  
+            }
+            .aboutdiv{
+                width: 300px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+
+                .pcss{ 
+                    font-size: 15px;
+                    width: 300px;
+                    margin-bottom: 5px;
+                }
+                .viewMore{
+                    width: 180px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
